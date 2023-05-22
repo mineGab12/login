@@ -20,10 +20,9 @@ const NotFoundPage = () => {
       <Container size={'medium'}>
         <div className={styles.root}>
           <h1>404 Error</h1>
-          <h2>Page not found</h2>
+          <h2>Page non trovez</h2>
           <p>
-            Uh oh, looks like the page you are looking for has moved or no
-            longer exists.
+           Je crois que vous vous êtes égarer !
           </p>
           <form onSubmit={(e) => handleSubmit(e)}>
             <div className={styles.searchContainer}>
